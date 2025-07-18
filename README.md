@@ -1,27 +1,29 @@
 
-# VBA_aiueo_sort (English)
+# VBA_aiueo_sort
 
-This repository provides an Excel macro tool that **sorts a Japanese name list in Gojuon (aiueo) order**.
+This repository contains a **tool** that uses Excel macros (VBA) to sort a list of names by Japanese syllabary (aieo) or group name.
 
-## 📄 Files
+## 📄 File Contents
 
-- `aiueoNameListSort.xlsm`  
-  A macro-enabled Excel file that lets you sort any Japanese name list by phonetic order with ease.
+- `aiueoNameListSort.xlsm`.
+  This is an Excel file with macro.You can sort any name list data in alphabetical order with a simple operation.
+- `groupSort.xlsm` file.
+  This is an Excel file with macro.You can sort any roster data in alphabetical order by group name.
+## 🛠️ Key Features
 
-## 🛠️ Features
+- Automatically sort the roster data on the sheet **in Japanese alphabetical order or group order**.
+- Saved as a macro enabled book for immediate use
+- Simple UI and code for easy customization.
 
-- Automatically sorts name lists by **Japanese syllabary (Gojuon) order**
-- Macro is ready to use without additional setup
-- Simple UI and customizable code
+## 🚀 Usage
 
-## 🚀 How to Use
+1. download and open `aiueoNameListSort.xlsm` or `groupSort.xlsm`. 
+2. Enter or paste the list of names you want to sort. 3.
+3. simply click on the `Make Aueo Name List Sort` button or `Make Group Sort List Sort` button!
 
-1. Download and open `aiueoNameListSort.xlsm`.
-2. Enter or paste your name list.
-3. Run the macro via the designated button or macro menu.
+When prompted to enable the macro, select "Enable".
 
-🔔 Make sure to enable macros when prompted.
+## 🔒 Notes.
 
-## 🔒 Notes
-
-- Sorting is based on phonetic reading (furigana). For accurate sorting, add a column for readings if names are in kanji.
+- Please enable the macro function in Excel.
+- The alphabetical sorting macro will sort based on the reading of the name.
